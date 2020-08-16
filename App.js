@@ -8,8 +8,8 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
-
 import Header from './src/components/Header';
+import axios from 'axios';
 
 // how to change stuff from plataform to plataforem
 const instructions = Platform.select({
@@ -30,6 +30,11 @@ export default class App extends Component<Props> {
     );
   }
 }
+
+
+
+
+
 /*
 const styles = StyleSheet.create({
   container: {
