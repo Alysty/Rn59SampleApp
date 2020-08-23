@@ -20,40 +20,46 @@ const instructions = Platform.select({
 });
 
 type Props = {};
+
+
+
 export default class App extends Component<Props> {
+  constructor(props){
+    super(props);
+
+    this.state = {
+      books: []
+    };
+  }
+  async componentDidMount(){
+    axios.get('https://www.googleapis.com/books/v1/volumes?q=Sarah J. Maas&key=AIzaSyB2txmk1ShWRtUnnSh-zlXQwDsl924De4E')
+    .then(
+      response => {
+        const booksList = response.data;
+        this.setState({
+          books: booksList
+        });
+        
+      });
+  }
+  renderList(){
+    //works
+    console.log(this.state.books.items);
+    //doesnt work because of delay in the api's response
+    const items =this.state.books.items;
+    const textElements = items.map(book => {
+          const {title} = book.volumeInfo;
+          return <Text key={title}>{title}</Text>
+    });
+    return textElements;
+  }
   render() {
     return (
       <View >
-        <Header  label={'Contatos'}/>
-        
+        <Header  label={'Books'}/>
+        {this.renderList()}
       </View>
     );
   }
+  
 }
-
-
-
-
-
-/*
-const styles = StyleSheet.create({
-  container: {
-    flex: 1, 
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
-
-
-*/
