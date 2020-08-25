@@ -15,7 +15,7 @@ class Header extends React.Component{
 const styles = StyleSheet.create({
     header: {
         marginTop: 0,
-        backgroundColor:'#6ca2f8',
+        backgroundColor:'#262626',
         alignItems: 'center'
     },
     
