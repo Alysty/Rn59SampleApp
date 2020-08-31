@@ -1,49 +1,38 @@
+import {createStackNavigator, createAppContainer} from 'react-navigation';
+import SearchBooksPage from './src/screens/SearchBooksPage';
+import FullBookView from './src/screens/FullBookView';
 
-import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
-import Header from './src/components/Header';
-import BookList from './src/components/BookList';
-import Api from './src/util/Api';
-import axios from 'axios';
+const StackNavigator = createStackNavigator({
+  'Main':{
+    screen: SearchBooksPage
+  },
+  'FullBookView':{
+    screen: FullBookView,
+    navigationOptions:({navigation}) => {
+      const bookTitle = navigation.state.params.book.volumeInfo.title;
+      return ({
+        title: 'Book: '+ bookTitle,
+        headerTitleStyle:{
+          color: 'white',
+          fontSize:20
+        }
+      })
+    }
+  }
+},{
+    defaultNavigationOptions:{
+      title:'Books',
+      headerTitleStyle:{
+        color:'white',
+        fontSize:30
+      },
+      headerStyle:{
+        backgroundColor: '#262626',
+        borderBottomWidth: 0 
+      }
+      
+    }
+});
 
-type Props = {};
-const styles = StyleSheet.create({
-  MainContainer: 
-  {
-  flex: 1,
- 
-  // Set hex color code here.
-  backgroundColor: '#595959',
-
-  }
-})
-export default class App extends Component<Props> {
-  constructor(props){
-    super(props);
-
-    this.state = {
-      books: []
-    };
-  }
-  componentDidMount(){
-    axios.get('https://www.googleapis.com/books/v1/volumes?q=Sarah J. Maas&key='+ Api() +'&maxResults=13&projection=lite')
-    .then(
-      response => {
-        const {items} = response.data;
-        this.setState({
-          books: items
-        });
-    });
-  }
-  render() {
-    return (
-      <View style = {styles.MainContainer}>
-        <View >
-          <Header  label={'Books'}/>
-          <BookList books={this.state.books}/>
-        </View>
-      </View>
-    );
-  }
-  
-}
+const AppContainer = createAppContainer(StackNavigator)
+export default AppContainer;

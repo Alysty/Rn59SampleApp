@@ -1,18 +1,20 @@
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
-import Header from '../components/Header';
+import {Platform, StyleSheet, Text, View, Image} from 'react-native';
+import ShowBook from '../components/ShowBook';
 import Api from '../util/Api';
 import axios from 'axios';
 
-// how to change stuff from plataform to plataforem
-
-
 type Props = {};
+const styles = StyleSheet.create({
+  MainContainer: 
+  {
+  flex: 1,
+  backgroundColor: '#595959',
 
-
-
-export default class App extends Component<Props> {
+  }
+})
+export default class FullBookView extends Component<Props> {
   constructor(props){
     super(props);
 
@@ -21,45 +23,27 @@ export default class App extends Component<Props> {
     };
   }
   componentDidMount(){
-    axios.get('https://www.googleapis.com/books/v1/volumes/wUWyDwAAQBAJ?key=' + Api.key)
+    const {id}  = this.props.navigation.state.params.book;
+    
+    axios.get('https://www.googleapis.com/books/v1/volumes/'+ id + '?'+ Api())
     .then(
       response => {
-        const bookData = response.data;
-        this.setState({
-          book: bookData
-        });
+        const {volumeInfo} = response.data;
         
-      });
-    
-    
-   
-  }
-  renderList(){
-    const textElements;
-    //doesnt work probably because of delay in the api's response
-    const title = this.state.book.volumeInfo.title;
-    textElements = <Image key={title+'img'}source = {this.state.book.volumeInfo.imageLinks.small} />
-    textElements += <Text key={title}>{title}</Text>
+        this.setState({
+          book: volumeInfo
+        });
+        const {title} =this.state.book;
+        console.log(title);
+    });
   }
   render() {
+    
     return (
-      <View >
-        <Header  label={''}/>
-        {this.renderList()}
+      <View style = {styles.MainContainer}>
+        <Text>aaaaa</Text>
       </View>
     );
   }
-  
+  //<Text>{this.state.book.title}</Text>
 }
-const styles = StyleSheet.create({
-    header: {
-        marginTop: 0,
-        backgroundColor:'#6ca2f8',
-        alignItems: 'center'
-    },
-    
-    text: {
-        fontSize: 40,
-        color: '#ffffff'
-    }
-})
