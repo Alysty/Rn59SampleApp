@@ -1,17 +1,27 @@
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, View, ActivityIndicator, Text, TextInput} from 'react-native';
 import BookList from '../components/BookList';
 import Api from '../util/Api';
+import FormRow from '../components/FormRow';
 import axios from 'axios';
-import FullBookView from '../screens/FullBookView';
+
 type Props = {};
 const styles = StyleSheet.create({
   MainContainer: 
   {
-  flex: 1,
-  backgroundColor: '#595959',
-
+    flex: 1,
+    backgroundColor: '#595959',
+    justifyContent: 'center'
+  },
+  Error:{
+    fontSize: 16,
+    alignSelf:"center"
+  },
+  Input:{
+    borderWidth: 1,
+    borderBottomColor: 'grey',
+    fontSize:20
   }
 })
 export default class SearchBooksPage extends Component<Props> {
@@ -19,26 +29,47 @@ export default class SearchBooksPage extends Component<Props> {
     super(props);
 
     this.state = {
-      books: []
+      books: [],
+      loading:false,
+      error: false
     };
   }
   componentDidMount(){
+    this.setState({loading: true});
     axios.get('https://www.googleapis.com/books/v1/volumes?q=Sarah J. Maas&key='+ Api() +'&maxResults=13')
     .then(
       response => {
         const {items} = response.data;
         this.setState({
-          books: items
+          books: items,
+          loading:false
         });
-    });
+    }).catch(error => 
+      this.setState(
+        {loading:false,
+          error:true}
+        )
+      );
   }
   render() {
     
     return (
+
       <View style = {styles.MainContainer}>
-        <View >
-          <BookList books={this.state.books} onPressFunction={(book)=>this.props.navigation.navigate('FullBookView', book)}/>
-        </View>
+        {
+          this.state.loading ? 
+            <ActivityIndicator  size="large" color="#CBCBCB"/>
+            :
+              this.state.error ? <Text style={styles.Error}> ERROR the books could not be loaded</Text>
+              :
+              <View >
+                <FormRow>
+                  <TextInput placeholder="Search for any book!" style={styles.Input}/>
+                </FormRow>
+                <BookList books={this.state.books} onPressFunction={(book)=>this.props.navigation.navigate('FullBookView', book)}/>
+              </View>
+        }
+        
       </View>
     );
   }

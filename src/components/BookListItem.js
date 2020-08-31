@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     },
     thumbnail:{
         aspectRatio: 1,
-        width:50,
+        width:40,
         flex: 1,
         marginLeft:10
     }
