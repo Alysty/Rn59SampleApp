@@ -1,4 +1,4 @@
-package com.rn59sampleapp;
+package com.bookmanager;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "Rn59SampleApp";
+        return "BookManager";
     }
 }

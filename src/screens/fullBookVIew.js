@@ -9,8 +9,8 @@ type Props = {};
 const styles = StyleSheet.create({
   MainContainer: 
   {
-  flex: 1,
-  backgroundColor: '#595959',
+    flex: 1,
+    backgroundColor: '#595959',
 
   }
 })
@@ -24,7 +24,7 @@ export default class FullBookView extends Component<Props> {
   }
   componentDidMount(){
     const {id}  = this.props.navigation.state.params.book;
-    
+    console.log(id+ "------------------");
     axios.get('https://www.googleapis.com/books/v1/volumes/'+ id + '?'+ Api())
     .then(
       response => {
@@ -33,17 +33,22 @@ export default class FullBookView extends Component<Props> {
         this.setState({
           book: volumeInfo
         });
-        const {title} =this.state.book;
-        console.log(title);
+        
     });
   }
   render() {
-    
+    /*
+    const {imageLinks} = this.state.book;
+    console.log(imageLinks);
+    const {thumbnail} = imageLinks;
+    <Image source = {{uri: thumbnail}} />*/
+   
     return (
       <View style = {styles.MainContainer}>
-        <Text>aaaaa</Text>
+        
+        <Text>{this.state.book.title}</Text>
       </View>
     );
   }
-  //<Text>{this.state.book.title}</Text>
+  //
 }

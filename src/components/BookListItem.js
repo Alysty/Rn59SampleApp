@@ -5,7 +5,6 @@ const BooksListItem = props =>{
     const {book, onPressFunction} = props;
     const {title} = book.volumeInfo;
     const {id} = book;
-    console.log("-------------"+book);
 
     try{
         var {thumbnail} = book.volumeInfo.imageLinks;

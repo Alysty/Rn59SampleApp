@@ -21,7 +21,10 @@ const styles = StyleSheet.create({
   Input:{
     borderWidth: 1,
     borderBottomColor: 'grey',
-    fontSize:20
+    fontSize:20,
+  },
+  Form:{
+    alignItems: 'center'
   }
 })
 export default class SearchBooksPage extends Component<Props> {
@@ -31,12 +34,16 @@ export default class SearchBooksPage extends Component<Props> {
     this.state = {
       books: [],
       loading:false,
-      error: false
+      error: false,
+      searching: false,
+      search: ""
     };
   }
-  componentDidMount(){
+  getBooks(value){
+    this.setState({error: false})
     this.setState({loading: true});
-    axios.get('https://www.googleapis.com/books/v1/volumes?q=Sarah J. Maas&key='+ Api() +'&maxResults=13')
+    console.log(value)
+    axios.get('https://www.googleapis.com/books/v1/volumes?q='+ value +'&key='+ Api() +'&maxResults=13')
     .then(
       response => {
         const {items} = response.data;
@@ -51,23 +58,46 @@ export default class SearchBooksPage extends Component<Props> {
         )
       );
   }
+  onChangeSearch(value){
+    if(value != ""){
+      this.setState({
+        searching: true
+      })
+    }else{
+      this.setState({
+        searching: false
+      })
+    }
+    this.setState({
+      search: value
+      
+    })
+    const books = this.getBooks(value);
+
+  }
   render() {
     
     return (
 
       <View style = {styles.MainContainer}>
+        <FormRow style = {styles.Form}>
+          <TextInput placeholder="Search for any book!" 
+            style={styles.Input} 
+            value={this.state.search}
+            onChangeText={(value)=> this.onChangeSearch(value)}
+          />
+        </FormRow>
         {
-          this.state.loading ? 
-            <ActivityIndicator  size="large" color="#CBCBCB"/>
-            :
-              this.state.error ? <Text style={styles.Error}> ERROR the books could not be loaded</Text>
+          this.state.searching ? 
+            this.state.loading ? 
+              <ActivityIndicator  size="large" color="#CBCBCB"/>
               :
-              <View >
-                <FormRow>
-                  <TextInput placeholder="Search for any book!" style={styles.Input}/>
-                </FormRow>
-                <BookList books={this.state.books} onPressFunction={(book)=>this.props.navigation.navigate('FullBookView', book)}/>
-              </View>
+                this.state.error ? <Text style={styles.Error}> ERROR the books could not be loaded</Text>
+                :
+                <View > 
+                  <BookList books={this.state.books} onPressFunction={(book)=>this.props.navigation.navigate('FullBookView', book)}/>
+                </View>
+            : null
         }
         
       </View>

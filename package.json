@@ -1,5 +1,5 @@
 {
-  "name": "Rn59SampleApp",
+  "name": "BookManager",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -14,11 +14,11 @@
     "react-navigation": "^3.11.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.1",
+    "@babel/core": "^7.11.6",
     "@babel/runtime": "^7.11.2",
     "babel-jest": "^26.3.0",
-    "jest": "^26.3.0",
-    "metro-react-native-babel-preset": "^0.62.0",
+    "jest": "^26.4.2",
+    "metro-react-native-babel-preset": "^0.63.0",
     "react-test-renderer": "16.8.3"
   },
   "jest": {

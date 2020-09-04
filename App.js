@@ -1,10 +1,11 @@
 import {createStackNavigator, createAppContainer} from 'react-navigation';
 import SearchBooksPage from './src/screens/SearchBooksPage';
 import FullBookView from './src/screens/FullBookView';
-
+import LoginPage from './src/screens/LoginPage'
 const StackNavigator = createStackNavigator({
   'Main':{
-    screen: SearchBooksPage
+    screen: LoginPage
+    
   },
   'FullBookView':{
     screen: FullBookView,
@@ -18,6 +19,9 @@ const StackNavigator = createStackNavigator({
         }
       })
     }
+  },
+  'SearchBooksPage':{
+    screen: SearchBooksPage
   }
 },{
     defaultNavigationOptions:{

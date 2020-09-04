@@ -1,4 +1,4 @@
-package com.rn59sampleapp;
+package com.bookmanager;
 
 import android.app.Application;
 
