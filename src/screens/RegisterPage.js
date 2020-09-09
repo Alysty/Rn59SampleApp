@@ -1,31 +1,20 @@
 import React from 'react';
-import {View, TextInput, StyleSheet, Button, ActivityIndicator, Text, Alert} from 'react-native';
+import {View, TextInput, StyleSheet, Button, ActivityIndicator, Alert} from 'react-native';
 import FormRow from '../components/FormRow';
-import firebase from 'firebase';
-export default class LoginScreen extends React.Component{
+export default class RegisterPage extends React.Component{
 
     constructor(props){
         super(props)
         this.state = {
-            email:'123@123.123',
-            password: '123123',
+            email:'',
+            password: '',
             isLoading: false,
-            message: ''
+            message: '',
+            firebase: null
         }
     }
-    componentDidMount(){
-        var firebaseConfig = {
-            apiKey: "AIzaSyDNHbF8mWfsGqEHgvqhz_1BuKoscFCrHN4",
-            authDomain: "bookmanager-41418.firebaseapp.com",
-            databaseURL: "https://bookmanager-41418.firebaseio.com",
-            projectId: "bookmanager-41418",
-            storageBucket: "bookmanager-41418.appspot.com",
-            messagingSenderId: "426887807497",
-            appId: "1:426887807497:web:e2ce674a1e6c8478986ed8",
-            measurementId: "G-D076VH3QP2"
-          };
-          // Initialize Firebase
-          firebase.initializeApp(firebaseConfig);
+    componentDidMount(){  
+        this.setState({firebase: this.props.navigation.state.params.firebase});
           
     }
     onChangeHandler (field, valor) {
@@ -37,10 +26,9 @@ export default class LoginScreen extends React.Component{
         if(this.state.isLoading){
             return <ActivityIndicator/>
         }
-        return (<Button 
-                    title='Login' 
+        return (<Button title='Register' 
                     style = {styles.Button}
-                    onPress= {()=>{this.checkLogin()}}
+                    onPress= {()=>{this.register()}}
                     />)
     }
     renderErrorMessage(){
@@ -62,16 +50,16 @@ export default class LoginScreen extends React.Component{
         )
 
     }
-    checkLogin(){
+    register(){
         this.setState({isLoading: true})
-        firebase.auth().
-        signInWithEmailAndPassword(this.state.email, this.state.password).
+        this.state.firebase.auth().
+        createUserWithEmailAndPassword(this.state.email, this.state.password).
         then(user => {
-                this.props.navigation.navigate('SearchBooksPage');
+                this.props.navigation.navigate('LoginPage');
             }).
         catch(error => 
             {
-                console.log('error in Login page')
+                console.log('error in register page')
                 this.setState({message: error.message})
             }).
         then(() => this.setState({isLoading: false}))
@@ -94,11 +82,7 @@ export default class LoginScreen extends React.Component{
                 </FormRow>
                 {this.renderButton()}
                 {this.renderErrorMessage()}
-                <Button
-                    title='Register' 
-                    style = {styles.Button}
-                    onPress= {()=>{this.props.navigation.navigate('RegisterPage', firebase)}}
-                />
+                
             </View>
         );
     }
@@ -121,6 +105,7 @@ const styles = StyleSheet.create({
     },
     Button:{
         paddingLeft:10,
-        paddingRight:10
+        paddingRight:10,
+        marginBottom: 10
     }
 })

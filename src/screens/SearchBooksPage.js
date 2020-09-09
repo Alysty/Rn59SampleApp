@@ -12,7 +12,8 @@ const styles = StyleSheet.create({
   {
     flex: 1,
     backgroundColor: '#595959',
-    justifyContent: 'center'
+    justifyContent: 'flex-start',
+    flexDirection: 'column'
   },
   Error:{
     fontSize: 16,
@@ -22,9 +23,15 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderBottomColor: 'grey',
     fontSize:20,
+    alignItems: 'center',
+    justifyContent: 'flex-start'
   },
   Form:{
     alignItems: 'center'
+  },
+  List: {
+    justifyContent:'flex-start',
+    marginTop:5
   }
 })
 export default class SearchBooksPage extends Component<Props> {
@@ -42,7 +49,6 @@ export default class SearchBooksPage extends Component<Props> {
   getBooks(value){
     this.setState({error: false})
     this.setState({loading: true});
-    console.log(value)
     axios.get('https://www.googleapis.com/books/v1/volumes?q='+ value +'&key='+ Api() +'&maxResults=13')
     .then(
       response => {
@@ -94,7 +100,7 @@ export default class SearchBooksPage extends Component<Props> {
               :
                 this.state.error ? <Text style={styles.Error}> ERROR the books could not be loaded</Text>
                 :
-                <View > 
+                <View style={styles.List} > 
                   <BookList books={this.state.books} onPressFunction={(book)=>this.props.navigation.navigate('FullBookView', book)}/>
                 </View>
             : null

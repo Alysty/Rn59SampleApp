@@ -1,7 +1,9 @@
 import {createStackNavigator, createAppContainer} from 'react-navigation';
 import SearchBooksPage from './src/screens/SearchBooksPage';
 import FullBookView from './src/screens/FullBookView';
-import LoginPage from './src/screens/LoginPage'
+import LoginPage from './src/screens/LoginPage';
+import RegisterPage from './src/screens/RegisterPage';
+
 const StackNavigator = createStackNavigator({
   'Main':{
     screen: LoginPage
@@ -21,7 +23,28 @@ const StackNavigator = createStackNavigator({
     }
   },
   'SearchBooksPage':{
-    screen: SearchBooksPage
+    screen: SearchBooksPage,
+    navigationOptions:({navigation}) => {
+      return ({
+        title: 'Search for books',
+        headerTitleStyle:{
+          color: 'white',
+          fontSize:20
+        }
+      })
+    }
+  },
+  'RegisterPage':{
+    screen: RegisterPage,
+    navigationOptions:({navigation}) => {
+      return ({
+        title: 'Resgister your account',
+        headerTitleStyle:{
+          color: 'white',
+          fontSize:20
+        }
+      })
+    }
   }
 },{
     defaultNavigationOptions:{
