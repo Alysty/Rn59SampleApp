@@ -1,6 +1,7 @@
 import React from 'react';
 import {View, TextInput, StyleSheet, Button, ActivityIndicator, Alert} from 'react-native';
 import FormRow from '../components/FormRow';
+import firebase from '../config/firebase'
 export default class RegisterPage extends React.Component{
 
     constructor(props){
@@ -9,13 +10,8 @@ export default class RegisterPage extends React.Component{
             email:'',
             password: '',
             isLoading: false,
-            message: '',
-            firebase: null
+            message: ''
         }
-    }
-    componentDidMount(){  
-        this.setState({firebase: this.props.navigation.state.params.firebase});
-          
     }
     onChangeHandler (field, valor) {
         this.setState({
@@ -52,7 +48,7 @@ export default class RegisterPage extends React.Component{
     }
     register(){
         this.setState({isLoading: true})
-        this.state.firebase.auth().
+        firebase.auth().
         createUserWithEmailAndPassword(this.state.email, this.state.password).
         then(user => {
                 this.props.navigation.navigate('LoginPage');

@@ -47,37 +47,41 @@ export default class SearchBooksPage extends Component<Props> {
     };
   }
   getBooks(value){
-    this.setState({error: false})
-    this.setState({loading: true});
-    axios.get('https://www.googleapis.com/books/v1/volumes?q='+ value +'&key='+ Api() +'&maxResults=13')
-    .then(
-      response => {
-        const {items} = response.data;
-        this.setState({
-          books: items,
-          loading:false
+    
+    
+    if(value){
+      this.setState({loading: true});
+      this.setState({error: false});
+      axios.get('https://www.googleapis.com/books/v1/volumes?q='+ value +'&key='+ Api() +'&maxResults=13')
+      .then(
+        response => {
+          const {items} = response.data;
+          this.setState({
+            books: items,
+            loading:false
+          });
+      }).catch(error =>{
+          this.setState(
+            {loading:false,
+              error:true}
+            )
+          console.log(error);
         });
-    }).catch(error => 
-      this.setState(
-        {loading:false,
-          error:true}
-        )
-      );
+    }
   }
   onChangeSearch(value){
+    this.setState({search: value});
     if(value != ""){
       this.setState({
-        searching: true
+        searching: true,
+        
       })
     }else{
       this.setState({
         searching: false
       })
     }
-    this.setState({
-      search: value
-      
-    })
+    
     const books = this.getBooks(value);
 
   }

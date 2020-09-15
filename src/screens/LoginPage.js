@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, TextInput, StyleSheet, Button, ActivityIndicator, Text, Alert} from 'react-native';
 import FormRow from '../components/FormRow';
-import firebase from 'firebase';
+import firebase from '../config/firebase';
 export default class LoginScreen extends React.Component{
 
     constructor(props){
@@ -14,7 +14,7 @@ export default class LoginScreen extends React.Component{
         }
     }
     componentDidMount(){
-        var firebaseConfig = {
+        /*var firebaseConfig = {
             apiKey: "AIzaSyDNHbF8mWfsGqEHgvqhz_1BuKoscFCrHN4",
             authDomain: "bookmanager-41418.firebaseapp.com",
             databaseURL: "https://bookmanager-41418.firebaseio.com",
@@ -25,7 +25,8 @@ export default class LoginScreen extends React.Component{
             measurementId: "G-D076VH3QP2"
           };
           // Initialize Firebase
-          firebase.initializeApp(firebaseConfig);
+          firebase.initializeApp(firebaseConfig);*/
+        
           
     }
     onChangeHandler (field, valor) {
@@ -37,11 +38,13 @@ export default class LoginScreen extends React.Component{
         if(this.state.isLoading){
             return <ActivityIndicator/>
         }
-        return (<Button 
+        return (<View style = {styles.Button}>
+                <Button 
                     title='Login' 
                     style = {styles.Button}
                     onPress= {()=>{this.checkLogin()}}
-                    />)
+                    />
+                </View>)
     }
     renderErrorMessage(){
         const {message} = this.state;
@@ -94,11 +97,14 @@ export default class LoginScreen extends React.Component{
                 </FormRow>
                 {this.renderButton()}
                 {this.renderErrorMessage()}
-                <Button
-                    title='Register' 
-                    style = {styles.Button}
-                    onPress= {()=>{this.props.navigation.navigate('RegisterPage', firebase)}}
-                />
+                <View style = {styles.Button}>
+                    <Button
+                        title='Register' 
+                        style = {styles.Button}
+                        onPress= {()=>{this.props.navigation.navigate('RegisterPage', firebase)}}
+                    />    
+                </View>
+                
             </View>
         );
     }
@@ -121,6 +127,7 @@ const styles = StyleSheet.create({
     },
     Button:{
         paddingLeft:10,
-        paddingRight:10
+        paddingRight:10,
+        marginTop:10
     }
 })
