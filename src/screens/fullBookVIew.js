@@ -1,7 +1,6 @@
 
 import React, {Component} from 'react';
 import {StyleSheet, Text, View, Image, ActivityIndicator, ScrollView} from 'react-native';
-import ShowBook from '../components/ShowBook';
 import Api from '../util/Api';
 import axios from 'axios';
 
@@ -73,14 +72,19 @@ export default class FullBookView extends Component<Props> {
         <View style= {styles.secondContainer}>
           <Image source = {{uri: image}} style={styles.thumbnail}/> 
         </View>
+        <View style= {styles.detailContainer}>
+          <View style = {styles.lineContainer}>
+            <Text style={styles.line}>Title: {this.state.book.title}</Text>
+            <Text></Text>
+            <Text style={styles.line}>Author(s): {this.returnAuthors(this.state.book.authors)}</Text>
+            
+            <Text></Text>        
+            <Text style={styles.line}>Description: {this.state.book.description}</Text>
+          
+          </View>
+          
+        </View>
         
-        <Text>Title: {this.state.book.title}</Text>
-        <Text></Text>
-        <Text>Author(s):</Text>
-        {this.returnAuthors(this.state.book.authors)}
-        <Text></Text>        
-        <Text>Description: {this.state.book.description}</Text>
-      
       </ScrollView>
      
     );
@@ -91,14 +95,32 @@ const styles = StyleSheet.create({
   MainContainer: 
   {
     flex: 1,
-    backgroundColor: '#595959',
+    backgroundColor: '#262626',
   },
   secondContainer:{
     padding: 10
+  },
+  detailContainer:{
+    marginTop:5,
+    padding:10
   },
   thumbnail:{
     
     aspectRatio: 1,
     width:390 
-  } 
+  },
+  lineContainer:{
+    paddingTop: 3,
+
+    paddingBottom:3,
+    borderWidth:1,
+    backgroundColor: '#303030',
+    elevation:1
+  },
+  line:{
+    paddingLeft: 10,
+    paddingRight: 10,
+    color: '#CECECE'
+  }
+
 })

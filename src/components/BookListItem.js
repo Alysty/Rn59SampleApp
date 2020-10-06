@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row'
     },
     text:{
-        color: '#ffffff',
+        color: '#CECECE',
         fontSize: 15,
         paddingLeft: 15,
         flex:6

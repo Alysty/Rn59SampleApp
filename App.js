@@ -50,11 +50,11 @@ const StackNavigator = createStackNavigator({
     defaultNavigationOptions:{
       title:'Books',
       headerTitleStyle:{
-        color:'white',
+        color:'CECECE',
         fontSize:30
       },
       headerStyle:{
-        backgroundColor: '#262626',
+        backgroundColor: '#353535',
         borderBottomWidth: 0 
       }
       

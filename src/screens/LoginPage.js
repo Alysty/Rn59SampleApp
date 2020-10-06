@@ -7,27 +7,11 @@ export default class LoginScreen extends React.Component{
     constructor(props){
         super(props)
         this.state = {
-            email:'123@123.123',
-            password: '123123',
+            email:'',
+            password: '',
             isLoading: false,
             message: ''
         }
-    }
-    componentDidMount(){
-        /*var firebaseConfig = {
-            apiKey: "AIzaSyDNHbF8mWfsGqEHgvqhz_1BuKoscFCrHN4",
-            authDomain: "bookmanager-41418.firebaseapp.com",
-            databaseURL: "https://bookmanager-41418.firebaseio.com",
-            projectId: "bookmanager-41418",
-            storageBucket: "bookmanager-41418.appspot.com",
-            messagingSenderId: "426887807497",
-            appId: "1:426887807497:web:e2ce674a1e6c8478986ed8",
-            measurementId: "G-D076VH3QP2"
-          };
-          // Initialize Firebase
-          firebase.initializeApp(firebaseConfig);*/
-        
-          
     }
     onChangeHandler (field, valor) {
         this.setState({
@@ -115,7 +99,7 @@ const styles = StyleSheet.create({
     MainContainer: 
     {
         flex: 1,
-        backgroundColor: '#595959',
+        backgroundColor: '#292929',
 
     },
     Input:{
@@ -124,6 +108,7 @@ const styles = StyleSheet.create({
         marginBottom: 10,
         paddingLeft:10,
         paddingRight:10,
+        color: '#CECECE'
     },
     Button:{
         paddingLeft:10,

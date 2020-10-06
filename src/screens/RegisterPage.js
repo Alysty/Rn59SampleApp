@@ -24,7 +24,9 @@ export default class RegisterPage extends React.Component{
         }
         return (<Button title='Register' 
                     style = {styles.Button}
-                    onPress= {()=>{this.register()}}
+                    onPress= {()=>{
+                        this.register(); 
+                        }}
                     />)
     }
     renderErrorMessage(){
@@ -51,7 +53,7 @@ export default class RegisterPage extends React.Component{
         firebase.auth().
         createUserWithEmailAndPassword(this.state.email, this.state.password).
         then(user => {
-                this.props.navigation.navigate('LoginPage');
+                this.props.navigation.goBack();
             }).
         catch(error => 
             {
@@ -89,7 +91,7 @@ const styles = StyleSheet.create({
     MainContainer: 
     {
         flex: 1,
-        backgroundColor: '#595959',
+        backgroundColor: '#292929',
 
     },
     Input:{
