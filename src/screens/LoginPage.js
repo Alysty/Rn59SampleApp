@@ -2,13 +2,15 @@ import React from 'react';
 import {View, TextInput, StyleSheet, Button, ActivityIndicator, Text, Alert} from 'react-native';
 import FormRow from '../components/FormRow';
 import firebase from '../config/firebase';
-export default class LoginScreen extends React.Component{
+import {processLogin} from '../actions';
+import { connect } from 'react-redux';
+class LoginPage extends React.Component{
 
     constructor(props){
         super(props)
         this.state = {
-            email:'',
-            password: '',
+            email:'123@123.123',
+            password: '123123',
             isLoading: false,
             message: ''
         }
@@ -51,17 +53,18 @@ export default class LoginScreen extends React.Component{
     }
     checkLogin(){
         this.setState({isLoading: true})
-        firebase.auth().
-        signInWithEmailAndPassword(this.state.email, this.state.password).
-        then(user => {
-                this.props.navigation.navigate('SearchBooksPage');
-            }).
-        catch(error => 
-            {
-                console.log('error in Login page')
-                this.setState({message: error.message})
-            }).
-        then(() => this.setState({isLoading: false}))
+        
+        const {email, password} = this.state;
+
+        this.props.processLogin({email, password})
+        .then( () => {
+            this.props.navigation.navigate('SearchBooksPage');
+            this.setState({isLoading: false});
+        })
+        .catch( error => {
+            this.setState({isLoading:false});
+            this.setState({ message: error.message});
+        })
     }
     render(){
         return(
@@ -71,6 +74,8 @@ export default class LoginScreen extends React.Component{
                         style={styles.Input}
                         value={this.state.email}
                         onChangeText={(valor) => {this.onChangeHandler('email',valor)}}
+                        keyboardType="email-address"
+                        autoCapitalize="none"
                     />  
                     <TextInput placeholder="Password" 
                         style={styles.Input}
@@ -116,3 +121,5 @@ const styles = StyleSheet.create({
         marginTop:10
     }
 })
+
+export default connect(null, {processLogin})(LoginPage);

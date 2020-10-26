@@ -5,17 +5,17 @@ const BooksListItem = props =>{
     const {book, onPressFunction} = props;
     const {title} = book.volumeInfo;
     const {id} = book;
-
+    const titleAltered = title.substring(0);
     try{
         var {thumbnail} = book.volumeInfo.imageLinks;
     }catch(err){
-        var thumbnail = 'https://www.motorolasolutions.com/content/dam/msi/images/products/accessories/image_not_available_lg.jpg'
+        var thumbnail = 'https://i.imgur.com/uuKFEGW.png'
     }
     return (
         <TouchableOpacity onPress={()=> onPressFunction({book})}>
             <View key= {id+'view'} style={styles.line}>
                 <Image source = {{uri: thumbnail}} style={styles.thumbnail}/>
-                <Text key={id} style={styles.text}>{title}</Text>
+                <Text key={id} style={styles.text} numberOfLines={2}>{title}</Text>
             </View>
         </TouchableOpacity>
     )

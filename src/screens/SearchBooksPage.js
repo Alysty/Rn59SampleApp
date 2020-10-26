@@ -7,33 +7,7 @@ import FormRow from '../components/FormRow';
 import axios from 'axios';
 
 type Props = {};
-const styles = StyleSheet.create({
-  MainContainer: 
-  {
-    flex: 1,
-    backgroundColor: '#262626',
-    justifyContent: 'flex-start',
-    flexDirection: 'column'
-  },
-  Error:{
-    fontSize: 16,
-    alignSelf:"center"
-  },
-  Input:{
-    borderWidth: 1,
-    borderBottomColor: 'grey',
-    fontSize:20,
-    alignItems: 'center',
-    justifyContent: 'flex-start'
-  },
-  Form:{
-    alignItems: 'center'
-  },
-  List: {
-    justifyContent:'flex-start',
-    marginTop:5
-  }
-})
+
 export default class SearchBooksPage extends Component<Props> {
   constructor(props){
     super(props);
@@ -88,7 +62,7 @@ export default class SearchBooksPage extends Component<Props> {
   render() {
     
     return (
-
+      
       <View style = {styles.MainContainer}>
         <FormRow style = {styles.Form}>
           <TextInput placeholder="Search for any book!" 
@@ -115,3 +89,30 @@ export default class SearchBooksPage extends Component<Props> {
   }
   
 }
+const styles = StyleSheet.create({
+  MainContainer: 
+  {
+    flex: 1,
+    backgroundColor: '#262626',
+    justifyContent: 'flex-start',
+    flexDirection: 'column'
+  },
+  Error:{
+    fontSize: 16,
+    alignSelf:"center"
+  },
+  Input:{
+    borderWidth: 1,
+    borderBottomColor: 'grey',
+    fontSize:20,
+    alignItems: 'center',
+    justifyContent: 'flex-start'
+  },
+  Form:{
+    alignItems: 'center'
+  },
+  List: {
+    justifyContent:'flex-start',
+    marginTop:5
+  }
+})

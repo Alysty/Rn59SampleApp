@@ -3,6 +3,8 @@ import React, {Component} from 'react';
 import {StyleSheet, Text, View, Image, ActivityIndicator, ScrollView} from 'react-native';
 import Api from '../util/Api';
 import axios from 'axios';
+import LongText from '../components/LongText'
+
 
 type Props = {};
 
@@ -19,7 +21,7 @@ export default class FullBookView extends Component<Props> {
         var {large} = images;
         image = large;
     }catch(err){
-        var image2 = 'https://www.motorolasolutions.com/content/dam/msi/images/products/accessories/image_not_available_lg.jpg'
+        var image2 = 'https://i.imgur.com/uuKFEGW.png'
     }
     if(image){
       return image;
@@ -78,9 +80,8 @@ export default class FullBookView extends Component<Props> {
             <Text></Text>
             <Text style={styles.line}>Author(s): {this.returnAuthors(this.state.book.authors)}</Text>
             
-            <Text></Text>        
-            <Text style={styles.line}>Description: {this.state.book.description}</Text>
-          
+            <Text></Text>
+            <LongText style={styles.line} label='Description' content={this.state.book.description}/>
           </View>
           
         </View>
@@ -111,16 +112,16 @@ const styles = StyleSheet.create({
   },
   lineContainer:{
     paddingTop: 3,
-
     paddingBottom:3,
     borderWidth:1,
     backgroundColor: '#303030',
     elevation:1
   },
   line:{
-    paddingLeft: 10,
-    paddingRight: 10,
-    color: '#CECECE'
+    color:'#CECECE',
+    paddingLeft:5,
+    paddingRight: 5
   }
+  
 
 })

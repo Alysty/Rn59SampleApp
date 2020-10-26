@@ -1,0 +1,1114 @@
+[{
+    "kind": "books#volume",
+    "id": "vP19DwAAQBAJ",
+    "etag": "975AyZGu0ZU",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/vP19DwAAQBAJ",
+    "volumeInfo": {
+        "title": "Ore Monogatari!! - vol. 8",
+        "authors": [
+            "Aruko",
+            "Kazune Kawahara"
+        ],
+        "publisher": " Panini Brasil LTDA",
+        "publishedDate": "2018-08-22",
+        "description": "Takeo avança um estágio no seu namoro com Yamato: chegou a hora de conhecer a família dela! E uma figura sem noção aparece para agitar a vida do casal!",
+        "industryIdentifiers": [{
+                "type": "ISBN_13",
+                "identifier": "9788542614480"
+            },
+            {
+                "type": "ISBN_10",
+                "identifier": "8542614488"
+            }
+        ],
+        "readingModes": {
+            "text": true,
+            "image": true
+        },
+        "pageCount": 192,
+        "printType": "BOOK",
+        "categories": [
+            "Comics & Graphic Novels"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.3.0.preview.3",
+        "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+        },
+        "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=vP19DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=vP19DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=vP19DwAAQBAJ&pg=PA192&dq=monogatari&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=vP19DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=vP19DwAAQBAJ"
+    },
+    "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+            "amount": 10.9,
+            "currencyCode": "BRL"
+        },
+        "retailPrice": {
+            "amount": 10.9,
+            "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=vP19DwAAQBAJ&rdid=book-vP19DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [{
+            "finskyOfferType": 1,
+            "listPrice": {
+                "amountInMicros": 10900000,
+                "currencyCode": "BRL"
+            },
+            "retailPrice": {
+                "amountInMicros": 10900000,
+                "currencyCode": "BRL"
+            },
+            "giftable": true
+        }]
+    },
+    "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Ore_Monogatari_vol_8-sample-epub.acsm?id=vP19DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Ore_Monogatari_vol_8-sample-pdf.acsm?id=vP19DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=vP19DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+        "textSnippet": "MONO GATARIT MINHA HISTÓRIA ORE \u003cb\u003eMONOGATARI\u003c/b\u003e !! © 2011 by Aruko , \u003cbr\u003e\nKazune Kawahara All rights reserved . First published in Japan in 2011 by \u003cbr\u003e\nSHUEISHA Inc. , Tokyo . Portuguese translation rights in Brazil arranged by \u003cbr\u003e\nSHUEISHA&nbsp;..."
+    }
+},
+{
+    "kind": "books#volume",
+    "id": "vv19DwAAQBAJ",
+    "etag": "2u63Ypd+UTE",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/vv19DwAAQBAJ",
+    "volumeInfo": {
+        "title": "Ore Monogatari!! - vol. 13",
+        "authors": [
+            "Aruko",
+            "Kazune Kawahara"
+        ],
+        "publisher": " Panini Brasil LTDA",
+        "publishedDate": "2018-08-22",
+        "description": "Takeo está em Okinawa com Yamato, mas cabe a ele a missão de levar a namorada de volta para casa, mesmo que isso os separe por quase um ano, com a ida dela para a Espanha. Superando as dificuldades do relacionamento e dos estudos, a história de Takeo Gouda chega ao fim.",
+        "industryIdentifiers": [{
+                "type": "ISBN_13",
+                "identifier": "9788542614534"
+            },
+            {
+                "type": "ISBN_10",
+                "identifier": "8542614534"
+            }
+        ],
+        "readingModes": {
+            "text": true,
+            "image": true
+        },
+        "pageCount": 192,
+        "printType": "BOOK",
+        "categories": [
+            "Comics & Graphic Novels"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.3.0.preview.3",
+        "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+        },
+        "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=vv19DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=vv19DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=vv19DwAAQBAJ&pg=PA192&dq=monogatari&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=vv19DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=vv19DwAAQBAJ"
+    },
+    "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+            "amount": 10.9,
+            "currencyCode": "BRL"
+        },
+        "retailPrice": {
+            "amount": 10.9,
+            "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=vv19DwAAQBAJ&rdid=book-vv19DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [{
+            "finskyOfferType": 1,
+            "listPrice": {
+                "amountInMicros": 10900000,
+                "currencyCode": "BRL"
+            },
+            "retailPrice": {
+                "amountInMicros": 10900000,
+                "currencyCode": "BRL"
+            },
+            "giftable": true
+        }]
+    },
+    "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Ore_Monogatari_vol_13-sample-epub.acsm?id=vv19DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Ore_Monogatari_vol_13-sample-pdf.acsm?id=vv19DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=vv19DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+        "textSnippet": "MONO GATARIIL NINHA HISTÓRIA ORE \u003cb\u003eMONOGATARI\u003c/b\u003e !! © 2011 by Aruko , \u003cbr\u003e\nKazune Kawahara All rights reserved . First published in Japan in 2011 by \u003cbr\u003e\nSHUEISHA Inc. , Tokyo . Portuguese translation rights in Brazil arranged by \u003cbr\u003e\nSHUEISHA&nbsp;..."
+    }
+},
+{
+    "kind": "books#volume",
+    "id": "Tv19DwAAQBAJ",
+    "etag": "o6U7nmGFVU0",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/Tv19DwAAQBAJ",
+    "volumeInfo": {
+        "title": "Ore Monogatari!! - vol. 10",
+        "authors": [
+            "Aruko",
+            "Kazune Kawahara"
+        ],
+        "publisher": " Panini Brasil LTDA",
+        "publishedDate": "2018-08-22",
+        "description": "O pâtissier Ichinose sugere que Takeo termine com Yamato e deixe o caminho livre para ele. Isso abala a autoconfiança de Takeo, mas, ao perceber que jamais abriria mão de Yamato, ele resolve enfrentar seu rival. Então, chega o dia do concurso de pâtisserie... Tudo pode acontecer!!",
+        "industryIdentifiers": [{
+                "type": "ISBN_13",
+                "identifier": "9788542614503"
+            },
+            {
+                "type": "ISBN_10",
+                "identifier": "854261450X"
+            }
+        ],
+        "readingModes": {
+            "text": true,
+            "image": true
+        },
+        "pageCount": 184,
+        "printType": "BOOK",
+        "categories": [
+            "Comics & Graphic Novels"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.3.0.preview.3",
+        "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+        },
+        "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=Tv19DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=Tv19DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=Tv19DwAAQBAJ&pg=PA183&dq=monogatari&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Tv19DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Tv19DwAAQBAJ"
+    },
+    "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+            "amount": 10.9,
+            "currencyCode": "BRL"
+        },
+        "retailPrice": {
+            "amount": 10.9,
+            "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Tv19DwAAQBAJ&rdid=book-Tv19DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [{
+            "finskyOfferType": 1,
+            "listPrice": {
+                "amountInMicros": 10900000,
+                "currencyCode": "BRL"
+            },
+            "retailPrice": {
+                "amountInMicros": 10900000,
+                "currencyCode": "BRL"
+            },
+            "giftable": true
+        }]
+    },
+    "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Ore_Monogatari_vol_10-sample-epub.acsm?id=Tv19DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Ore_Monogatari_vol_10-sample-pdf.acsm?id=Tv19DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Tv19DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+        "textSnippet": "+ ele era capaz e poses а е e os atores Olá !! Obrigada por terem aberto as \u003cbr\u003e\npáginas de mais um volume de &quot; Ore \u003cb\u003eMonogatari\u003c/b\u003e !! &#39; ! Fico muito feliz lendo as \u003cbr\u003e\ncartas com comentários de todos !! Muito feliz , mesmo !! Graças a vocês , olhem \u003cbr\u003e\nsó&nbsp;..."
+    }
+},
+{
+    "kind": "books#volume",
+    "id": "Qv99DwAAQBAJ",
+    "etag": "dr05LaoJ5PA",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/Qv99DwAAQBAJ",
+    "volumeInfo": {
+        "title": "Ore Monogatari!! - vol. 9",
+        "authors": [
+            "Aruko",
+            "Kazune Kawahara"
+        ],
+        "publisher": " Panini Brasil LTDA",
+        "publishedDate": "2018-08-22",
+        "description": "Yamato consegue um trabalho temporário na sua doceria favorita. Takeo a observa de longe, com o coração apertado, mas torcendo pelo seu sucesso. O problema é que Ichinose, o pâtissier bonitão da loja, acaba se interessando por Yamato e começa a chamá-la de \"Rinko\", na maior intimidade!!",
+        "industryIdentifiers": [{
+                "type": "ISBN_13",
+                "identifier": "9788542614497"
+            },
+            {
+                "type": "ISBN_10",
+                "identifier": "8542614496"
+            }
+        ],
+        "readingModes": {
+            "text": true,
+            "image": true
+        },
+        "pageCount": 176,
+        "printType": "BOOK",
+        "categories": [
+            "Comics & Graphic Novels"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.4.3.0.preview.3",
+        "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+        },
+        "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=Qv99DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=Qv99DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=Qv99DwAAQBAJ&pg=PT33&dq=monogatari&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Qv99DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Qv99DwAAQBAJ"
+    },
+    "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+            "amount": 10.9,
+            "currencyCode": "BRL"
+        },
+        "retailPrice": {
+            "amount": 10.9,
+            "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Qv99DwAAQBAJ&rdid=book-Qv99DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [{
+            "finskyOfferType": 1,
+            "listPrice": {
+                "amountInMicros": 10900000,
+                "currencyCode": "BRL"
+            },
+            "retailPrice": {
+                "amountInMicros": 10900000,
+                "currencyCode": "BRL"
+            },
+            "giftable": true
+        }]
+    },
+    "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Ore_Monogatari_vol_9-sample-epub.acsm?id=Qv99DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Ore_Monogatari_vol_9-sample-pdf.acsm?id=Qv99DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Qv99DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+        "textSnippet": "MONO GATARIT MINHA HISTÓRIA ORE \u003cb\u003eMONOGATARI\u003c/b\u003e !! © 2011 by Aruko , \u003cbr\u003e\nKazune Kawahara All rights reserved . First published in Japan in 2011 by \u003cbr\u003e\nSHUEISHA Inc. , Tokyo . Portuguese translation rights in Brazil arranged by \u003cbr\u003e\nSHUEISHA&nbsp;..."
+    }
+},
+{
+    "kind": "books#volume",
+    "id": "VP19DwAAQBAJ",
+    "etag": "qPO2P4mdN/4",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/VP19DwAAQBAJ",
+    "volumeInfo": {
+        "title": "Ore Monogatari!! - vol. 12",
+        "authors": [
+            "Aruko",
+            "Kazune Kawahara"
+        ],
+        "publisher": " Panini Brasil LTDA",
+        "publishedDate": "2018-08-22",
+        "description": "Sunakawa se tornou amigo de Tanaka, o novo aluno da turma, mas este não parece ter uma amizade sincera, valendo-se mais das aparências. Para mostrar o valor da amizade, Takeo e Sunakawa o levam em uma viagem em que a cooperação é muito importante. E uma reviravolta na vida de Yamato a fará tomar atitudes nunca esperadas e que surpreendem sua família e Takeo.",
+        "industryIdentifiers": [{
+                "type": "ISBN_13",
+                "identifier": "9788542614527"
+            },
+            {
+                "type": "ISBN_10",
+                "identifier": "8542614526"
+            }
+        ],
+        "readingModes": {
+            "text": true,
+            "image": true
+        },
+        "pageCount": 184,
+        "printType": "BOOK",
+        "categories": [
+            "Comics & Graphic Novels"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.4.3.0.preview.3",
+        "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+        },
+        "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=VP19DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=VP19DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=VP19DwAAQBAJ&pg=PA216&dq=monogatari&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=VP19DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=VP19DwAAQBAJ"
+    },
+    "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+            "amount": 10.9,
+            "currencyCode": "BRL"
+        },
+        "retailPrice": {
+            "amount": 10.9,
+            "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=VP19DwAAQBAJ&rdid=book-VP19DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [{
+            "finskyOfferType": 1,
+            "listPrice": {
+                "amountInMicros": 10900000,
+                "currencyCode": "BRL"
+            },
+            "retailPrice": {
+                "amountInMicros": 10900000,
+                "currencyCode": "BRL"
+            },
+            "giftable": true
+        }]
+    },
+    "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Ore_Monogatari_vol_12-sample-epub.acsm?id=VP19DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Ore_Monogatari_vol_12-sample-pdf.acsm?id=VP19DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=VP19DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+        "textSnippet": "MONOJ GATARIT MINHA HISTÓRIA ORE \u003cb\u003eMONOGATARI\u003c/b\u003e !! © 2011 by Aruko , \u003cbr\u003e\nKazune Kawahara All rights reserved . First published in Japan in 2011 by \u003cbr\u003e\nSHUEISHA Inc. , Tokyo . Portuguese translation rights in Brazil arranged by \u003cbr\u003e\nSHUEISHA&nbsp;..."
+    }
+},
+{
+    "kind": "books#volume",
+    "id": "D5Oqj3TsMlUC",
+    "etag": "X071xX8ntkU",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/D5Oqj3TsMlUC",
+    "volumeInfo": {
+        "title": "Heike Monogatari",
+        "authors": [
+            "Helen Craig McCullough"
+        ],
+        "publisher": "Stanford University Press",
+        "publishedDate": "1988",
+        "description": "The Tale of the Heike is one of the masterworks of Japanese literature, ranking with The Tal of Genji in quality and prestige. This new translation is not only far more readable than earlier ones, it is also much more faithful to the content and style of the original. Intended for the general audience as well as the specialist, this edition is highly annotated.",
+        "industryIdentifiers": [{
+                "type": "ISBN_10",
+                "identifier": "0804718032"
+            },
+            {
+                "type": "ISBN_13",
+                "identifier": "9780804718035"
+            }
+        ],
+        "readingModes": {
+            "text": true,
+            "image": true
+        },
+        "pageCount": 489,
+        "printType": "BOOK",
+        "categories": [
+            "Fiction"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.5.0.preview.3",
+        "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+        },
+        "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=D5Oqj3TsMlUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=D5Oqj3TsMlUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=D5Oqj3TsMlUC&pg=PA456&dq=monogatari&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=D5Oqj3TsMlUC&dq=monogatari&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Heike_Monogatari.html?hl=&id=D5Oqj3TsMlUC"
+    },
+    "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+    },
+    "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Heike_Monogatari-sample-epub.acsm?id=D5Oqj3TsMlUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+            "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=D5Oqj3TsMlUC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+        "textSnippet": "The &#39;Heike&#39; as Literature Although a cursory reading of Heike \u003cb\u003emonogatari\u003c/b\u003e might \u003cbr\u003e\nlead us to view the book as a chronology of the years from 1131 to 1199, or as a \u003cbr\u003e\ngeneral history of the Genpei War, both the title and the content reveal a different\u003cbr\u003e\n&nbsp;..."
+    }
+},
+{
+    "kind": "books#volume",
+    "id": "4zLsAgAAQBAJ",
+    "etag": "fu7kzaG1W5Q",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/4zLsAgAAQBAJ",
+    "volumeInfo": {
+        "title": "Genji Monogatari",
+        "authors": [
+            "Lady Murasaki Shikibu"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2013-01-18",
+        "description": "The Tale of Genji Monogatari is a classic work of Japanese literature attributed to the Japanese noblewoman Murasaki Shikibu in the early eleventh century, around the peak of the Heian Period. It is sometimes called the world's first novel, the first modern novel.",
+        "industryIdentifiers": [{
+                "type": "ISBN_13",
+                "identifier": "9781625584083"
+            },
+            {
+                "type": "ISBN_10",
+                "identifier": "1625584083"
+            }
+        ],
+        "readingModes": {
+            "text": true,
+            "image": false
+        },
+        "pageCount": 217,
+        "printType": "BOOK",
+        "categories": [
+            "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.5.6.0.preview.2",
+        "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+        },
+        "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=4zLsAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=4zLsAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=4zLsAgAAQBAJ&pg=PT157&dq=monogatari&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=4zLsAgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=4zLsAgAAQBAJ"
+    },
+    "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+            "amount": 11.12,
+            "currencyCode": "BRL"
+        },
+        "retailPrice": {
+            "amount": 11.12,
+            "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=4zLsAgAAQBAJ&rdid=book-4zLsAgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [{
+            "finskyOfferType": 1,
+            "listPrice": {
+                "amountInMicros": 11120000,
+                "currencyCode": "BRL"
+            },
+            "retailPrice": {
+                "amountInMicros": 11120000,
+                "currencyCode": "BRL"
+            },
+            "giftable": true
+        }]
+    },
+    "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Genji_Monogatari-sample-epub.acsm?id=4zLsAgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+            "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=4zLsAgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+    }
+},
+{
+    "kind": "books#volume",
+    "id": "JGUrFvbFrzUC",
+    "etag": "91VHIsPacPY",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/JGUrFvbFrzUC",
+    "volumeInfo": {
+        "title": "Ugetsu Monogatari or Tales of Moonlight and Rain (Routledge Revivals)",
+        "subtitle": "A Complete English Version of the Eighteenth-Century Japanese collection of Tales of the Supernatural",
+        "authors": [
+            "Ueda Akinari"
+        ],
+        "publisher": "Routledge",
+        "publishedDate": "2012-08-06",
+        "description": "Ugetsu Monogatari, or Tales of Moonlight and Rain numbers among the best-loved Japanese classics. These nine illustrated tales of the supernatural from eighteenth-century Osaka combine popular appeal with a high literary standard. The author expressed his complex views on human life and society in simple yet poetic language. Akinari questioned the prevailing moral values and standards of his age whilst entertaining his readers with mystery and other-worldly occurrences. This is a reissue of Leon Zolbrod’s definitive English translation of the work, first published in 1974.",
+        "industryIdentifiers": [{
+                "type": "ISBN_13",
+                "identifier": "9781136810329"
+            },
+            {
+                "type": "ISBN_10",
+                "identifier": "1136810323"
+            }
+        ],
+        "readingModes": {
+            "text": true,
+            "image": true
+        },
+        "pageCount": 280,
+        "printType": "BOOK",
+        "categories": [
+            "Language Arts & Disciplines"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.3.3.0.preview.3",
+        "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+        },
+        "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=JGUrFvbFrzUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=JGUrFvbFrzUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=JGUrFvbFrzUC&pg=PA277&dq=monogatari&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=JGUrFvbFrzUC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=JGUrFvbFrzUC"
+    },
+    "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+            "amount": 342.2,
+            "currencyCode": "BRL"
+        },
+        "retailPrice": {
+            "amount": 342.2,
+            "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=JGUrFvbFrzUC&rdid=book-JGUrFvbFrzUC&rdot=1&source=gbs_api",
+        "offers": [{
+            "finskyOfferType": 1,
+            "listPrice": {
+                "amountInMicros": 342200000,
+                "currencyCode": "BRL"
+            },
+            "retailPrice": {
+                "amountInMicros": 342200000,
+                "currencyCode": "BRL"
+            },
+            "giftable": true
+        }]
+    },
+    "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Ugetsu_Monogatari_or_Tales_of_Moonlight-sample-epub.acsm?id=JGUrFvbFrzUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Ugetsu_Monogatari_or_Tales_of_Moonlight-sample-pdf.acsm?id=JGUrFvbFrzUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=JGUrFvbFrzUC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+        "textSnippet": "I Texts in Japanese Consulted for the Present Edition A Wood-block Edition: \u003cbr\u003e\nKinko kidan ugetsu \u003cb\u003emonogatari\u003c/b\u003e. Kyoto and Osaka: Umemura Hambei and \u003cbr\u003e\nNomura Chōbei, I776. 5 kan. A photographic reproduction of the copy formerly \u003cbr\u003e\nowned by&nbsp;..."
+    }
+},
+{
+    "kind": "books#volume",
+    "id": "zV6vAgAAQBAJ",
+    "etag": "eKrU4FjH6wQ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/zV6vAgAAQBAJ",
+    "volumeInfo": {
+        "title": "Taketori Monogatari",
+        "subtitle": "The Tale of the Bamboo-Cutter",
+        "authors": [
+            "Mankichi Wada",
+            "Elizabeth Plain"
+        ],
+        "publisher": "CSIP",
+        "publishedDate": "2014-01-24",
+        "description": "JAPANESE - ENGLISH EDITION Taketori Monogatari is the earliest surviving example of Japanese literary fiction and this edition, which is based on one published by Dr. Mankichi Wada in 1928, has been produced with the aim of making the text more accessible to students who wish to read authentic Japanese, but who may need some assistance. The main focus of the story is the beautiful and enigmatic Kaguyahime and the various tasks that she sets her suitors and, although the premise of the tale is fantastic, the characters and the situations in which they find themselves are described with realism, pathos and humor.",
+        "industryIdentifiers": [{
+                "type": "ISBN_13",
+                "identifier": "9781494980184"
+            },
+            {
+                "type": "ISBN_10",
+                "identifier": "1494980185"
+            }
+        ],
+        "readingModes": {
+            "text": false,
+            "image": false
+        },
+        "pageCount": 100,
+        "printType": "BOOK",
+        "categories": [
+            "Foreign Language Study"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.0.0.preview.0",
+        "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=zV6vAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=zV6vAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=zV6vAgAAQBAJ&pg=PT52&dq=monogatari&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=zV6vAgAAQBAJ&dq=monogatari&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Taketori_Monogatari.html?hl=&id=zV6vAgAAQBAJ"
+    },
+    "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+    },
+    "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+            "isAvailable": false
+        },
+        "pdf": {
+            "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=zV6vAgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+    }
+},
+{
+    "kind": "books#volume",
+    "id": "TpKxN1HL98AC",
+    "etag": "P8IazX30gew",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/TpKxN1HL98AC",
+    "volumeInfo": {
+        "title": "Ugetsu Monogatari Or Tales of Moonlight and Rain",
+        "subtitle": "A Complete English Version of the Eighteenth-century Japanese Collection of Tales of the Supernatural",
+        "authors": [
+            "Ueda Akinari"
+        ],
+        "publisher": "Routledge",
+        "publishedDate": "2011",
+        "description": "Ugetsu Monogatari, or Tales of Moonlight and Rain numbers among the best-loved Japanese classics. These nine illustrated tales of the supernatural from eighteenth-century Osaka combine popular appeal with a high literary standard. The author expressed his complex views on human life and society in simple yet poetic language. Akinari questioned the prevailing moral values and standards of his age whilst entertaining his readers with mystery and other-worldly occurrences. This is a reissue of Leon Zolbrodâe(tm)s definitive English translation of the work, first published in 1974.",
+        "industryIdentifiers": [{
+                "type": "ISBN_13",
+                "identifier": "9780415618779"
+            },
+            {
+                "type": "ISBN_10",
+                "identifier": "0415618770"
+            }
+        ],
+        "readingModes": {
+            "text": false,
+            "image": true
+        },
+        "pageCount": 280,
+        "printType": "BOOK",
+        "categories": [
+            "Language Arts & Disciplines"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.1",
+        "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=TpKxN1HL98AC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=TpKxN1HL98AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=TpKxN1HL98AC&pg=PA88&dq=monogatari&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=TpKxN1HL98AC&dq=monogatari&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Ugetsu_Monogatari_Or_Tales_of_Moonlight.html?hl=&id=TpKxN1HL98AC"
+    },
+    "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+    },
+    "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+            "isAvailable": false
+        },
+        "pdf": {
+            "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=TpKxN1HL98AC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+        "textSnippet": "(Shanghai: Chung hua shu chii, 1962), p. 55. Also see Shigetomo Ki, Ugetsu \u003cbr\u003e\n\u003cb\u003emonogatari\u003c/b\u003e no kenkyzi (Tokyo: Yaesu Shuppan, 1946), pp. 311-14; and Uzuki \u003cbr\u003e\nHiroshi, Ugetsu \u003cb\u003emonogatari\u003c/b\u003e hy6shaku, in Nihon koten hyoshaku zenchtishaku \u003cbr\u003e\nsosho&nbsp;..."
+    }
+},
+{
+    "kind": "books#volume",
+    "id": "Uf_GBQAAQBAJ",
+    "etag": "lgfKRwB2Zmg",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/Uf_GBQAAQBAJ",
+    "volumeInfo": {
+        "title": "Ochikubo Monogatari or The Tale of the Lady Ochikubo",
+        "subtitle": "A Tenth Century Japanese Novel",
+        "authors": [
+            "Wilfrid Whitehouse"
+        ],
+        "publisher": "Routledge",
+        "publishedDate": "2010-10-18",
+        "description": "The Tale of the Lady Ochikubo dates from the last quarter of the tenth century. It is therefore one of the earliest of that long line of monogatari which are a special part of Japanese literature from the Heian Era. Ochikubo is the first novel: here for the first time is a vivid and realistic chronicle of life, related with a wealth of natural dialogue. In no story of the Heian Era are there so few poems or an absence of descriptions of the beauties of nature. The author keeps close to the human story he is chronicling. It is also the first novel to attempt any kind of characterisation. As a whole, the novel is of outstanding importance in the history of Japanese literature.",
+        "industryIdentifiers": [{
+                "type": "ISBN_13",
+                "identifier": "9781136913280"
+            },
+            {
+                "type": "ISBN_10",
+                "identifier": "1136913289"
+            }
+        ],
+        "readingModes": {
+            "text": true,
+            "image": true
+        },
+        "pageCount": 266,
+        "printType": "BOOK",
+        "categories": [
+            "Literary Collections"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+        },
+        "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=Uf_GBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=Uf_GBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=Uf_GBQAAQBAJ&pg=PT194&dq=monogatari&hl=&cd=11&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Uf_GBQAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Uf_GBQAAQBAJ"
+    },
+    "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+            "amount": 327.64,
+            "currencyCode": "BRL"
+        },
+        "retailPrice": {
+            "amount": 327.64,
+            "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Uf_GBQAAQBAJ&rdid=book-Uf_GBQAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [{
+            "finskyOfferType": 1,
+            "listPrice": {
+                "amountInMicros": 327640000,
+                "currencyCode": "BRL"
+            },
+            "retailPrice": {
+                "amountInMicros": 327640000,
+                "currencyCode": "BRL"
+            },
+            "giftable": true
+        }]
+    },
+    "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Ochikubo_Monogatari_or_The_Tale_of_the_L-sample-epub.acsm?id=Uf_GBQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Ochikubo_Monogatari_or_The_Tale_of_the_L-sample-pdf.acsm?id=Uf_GBQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Uf_GBQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+        "textSnippet": "... daughters,her halfsisters; sheis&#39;The Ladyof theLower Room&#39; while they \u003cbr\u003e\narespoken ofas &#39;EldestLady&#39;or &#39;Second Lady&#39;; she is addressed as a chief \u003cbr\u003e\nattendant might be—Ochikubo no Kimi. ii. THE AUTHOR. &#39;Ochikubo \u003cb\u003eMonogatari\u003c/b\u003e&#39; \u003cbr\u003e\nisthe work&nbsp;..."
+    }
+},
+{
+    "kind": "books#volume",
+    "id": "CtivEIi4s8MC",
+    "etag": "nV9QaO9JLwc",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/CtivEIi4s8MC",
+    "volumeInfo": {
+        "title": "Tales of Times Now Past",
+        "subtitle": "Sixty-two Stories from a Medieval Japanese Collection",
+        "authors": [
+            "Marian Ury"
+        ],
+        "publisher": "Univ of California Press",
+        "publishedDate": "1979",
+        "industryIdentifiers": [{
+                "type": "ISBN_10",
+                "identifier": "0520038649"
+            },
+            {
+                "type": "ISBN_13",
+                "identifier": "9780520038646"
+            }
+        ],
+        "readingModes": {
+            "text": true,
+            "image": true
+        },
+        "pageCount": 199,
+        "printType": "BOOK",
+        "categories": [
+            "English literature"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.4.0.preview.3",
+        "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+        },
+        "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=CtivEIi4s8MC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=CtivEIi4s8MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=CtivEIi4s8MC&pg=PA24&dq=monogatari&hl=&cd=12&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=CtivEIi4s8MC&dq=monogatari&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Tales_of_Times_Now_Past.html?hl=&id=CtivEIi4s8MC"
+    },
+    "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+    },
+    "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com.br/books/download/Tales_of_Times_Now_Past-sample-epub.acsm?id=CtivEIi4s8MC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+            "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=CtivEIi4s8MC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+        "textSnippet": "Kōshō Konjaku \u003cb\u003emonogatari\u003c/b\u003e shū . 3 vols . Tokyo : Fuzanbō , 1913 - 1921 . A \u003cbr\u003e\npioneering printing of the complete text , together with variants and possible \u003cbr\u003e\nsources of each story . Mabuchi Kazuo , Kunisaki Fumimaro , and Konno Tōru , \u003cbr\u003e\neds ."
+    }
+},
+{
+    "kind": "books#volume",
+    "id": "-fJIAQAAMAAJ",
+    "etag": "k7sIqRT8s/E",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/-fJIAQAAMAAJ",
+    "volumeInfo": {
+        "title": "Tōnomine Shōshō Monogatari",
+        "subtitle": "A Translation and Critical Study",
+        "authors": [
+            "Lynne Kimiko Miyake"
+        ],
+        "publishedDate": "1985",
+        "industryIdentifiers": [{
+            "type": "OTHER",
+            "identifier": "UCAL:C2931622"
+        }],
+        "readingModes": {
+            "text": false,
+            "image": false
+        },
+        "pageCount": 173,
+        "printType": "BOOK",
+        "categories": [
+            "Japanese literature"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.0",
+        "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+        },
+        "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=-fJIAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=-fJIAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=-fJIAQAAMAAJ&q=monogatari&dq=monogatari&hl=&cd=13&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=-fJIAQAAMAAJ&dq=monogatari&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/T%C5%8Dnomine_Sh%C5%8Dsh%C5%8D_Monogatari.html?hl=&id=-fJIAQAAMAAJ"
+    },
+    "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+    },
+    "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+            "isAvailable": false
+        },
+        "pdf": {
+            "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=-fJIAQAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+        "textSnippet": "The relationship between Tônomine Shosho \u003cb\u003emonogatari\u003c/b\u003e and Õginagashi \u003cbr\u003e\n\u003cb\u003emonogatari\u003c/b\u003e is one of two works sharing the same body of materials but created \u003cbr\u003e\nfor a different purpose . Õginagashi \u003cb\u003emonogatari\u003c/b\u003e is a setsuwa ( story ) version of&nbsp;..."
+    }
+}
+]
